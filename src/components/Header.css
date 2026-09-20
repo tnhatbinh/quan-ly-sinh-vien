@@ -1,0 +1,37 @@
+.top-header {
+  padding: 10px 20px;
+  border-bottom: 1px solid #ccc;
+  background-color: white;
+}
+.co-quan {
+  font-size: 14px;
+  color: #d32f2f;
+  margin: 0 0 5px 0;
+  text-transform: uppercase;
+}
+.ten-phan-mem {
+  font-size: 20px;
+  color: #0056b3;
+  margin: 0;
+  font-weight: bold;
+}
+.navbar {
+  background-color: #0082c8;
+  display: flex;
+}
+.nav-item {
+  background: transparent;
+  border: none;
+  color: white;
+  padding: 12px 20px;
+  cursor: pointer;
+  font-weight: bold;
+  border-right: 1px solid #005e93;
+}
+.nav-item:hover {
+  background-color: #009cf0;
+}
+.nav-item.active {
+  background-color: #72c4ff;
+  color: #003a66;
+}

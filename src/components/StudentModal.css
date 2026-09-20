@@ -1,0 +1,88 @@
+.modal-overlay {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-color: rgba(0, 0, 0, 0.4);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  z-index: 1000;
+}
+.modal-box {
+  background: white;
+  width: 650px;
+  border-radius: 4px;
+  overflow: hidden;
+  box-shadow: 0 4px 15px rgba(0, 0, 0, 0.2);
+}
+.modal-header {
+  background-color: #2b95ce;
+  color: white;
+  padding: 10px 15px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.modal-header h4 {
+  margin: 0;
+  font-weight: normal;
+  font-size: 15px;
+}
+.btn-close {
+  background: none;
+  border: none;
+  color: white;
+  cursor: pointer;
+  font-weight: bold;
+  font-size: 16px;
+}
+.modal-body {
+  padding: 15px 20px;
+}
+.note {
+  font-style: italic;
+  color: #333;
+  font-size: 13px;
+  margin-top: 0;
+  margin-bottom: 15px;
+}
+.form-group {
+  display: flex;
+  align-items: center;
+  margin-bottom: 12px;
+}
+.form-group label:first-child {
+  width: 140px;
+  font-weight: bold;
+  font-size: 14px;
+}
+.form-group input[type="text"],
+.form-group input[type="date"] {
+  flex: 1;
+  padding: 6px;
+  border: 1px solid #ccc;
+  border-radius: 3px;
+}
+.modal-footer {
+  padding: 12px 15px;
+  text-align: center;
+  border-top: 1px solid #eee;
+  background-color: #f9f9f9;
+}
+.modal-footer button {
+  margin: 0 5px;
+  padding: 6px 15px;
+  border-radius: 4px;
+  border: 1px solid #ccc;
+  background: white;
+  cursor: pointer;
+  font-weight: bold;
+}
+.btn-save {
+  color: #28a745 !important;
+}
+.btn-cancel {
+  color: #dc3545 !important;
+}

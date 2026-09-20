@@ -1,0 +1,24 @@
+.sidebar {
+  width: 230px;
+  background-color: #f4f6f9;
+  border-right: 1px solid #ccc;
+}
+.side-menu {
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+}
+.side-menu li {
+  padding: 12px 15px;
+  border-bottom: 1px solid #ddd;
+  cursor: pointer;
+  color: #333;
+}
+.side-menu li:hover {
+  background-color: #e2e6ea;
+}
+.active-side {
+  color: #d32f2f !important;
+  font-weight: bold;
+  background-color: white;
+}

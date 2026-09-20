@@ -1,0 +1,48 @@
+/* ================= BỐ CỤC CHUNG ================= */
+.admin-layout {
+  display: flex;
+  flex-direction: column;
+  height: 100vh;
+}
+.body-container {
+  display: flex;
+  flex: 1;
+}
+.main-content {
+  flex: 1;
+  padding: 15px;
+}
+.main-content h3 {
+  margin-top: 0;
+  color: #333;
+}
+
+/* ================= THANH CÔNG CỤ (TOOLBAR) ================= */
+.toolbar {
+  display: flex;
+  justify-content: space-between;
+  padding: 10px 0;
+  border-bottom: 1px solid #eee;
+  margin-bottom: 15px;
+}
+.toolbar button {
+  background: white;
+  border: 1px solid #ccc;
+  padding: 6px 12px;
+  margin-right: 8px;
+  cursor: pointer;
+  border-radius: 3px;
+  font-size: 13px;
+}
+.toolbar button:hover {
+  background: #f0f0f0;
+}
+.btn-them {
+  color: #d32f2f !important;
+  font-weight: bold;
+}
+.toolbar-right input {
+  padding: 6px;
+  border: 1px solid #ccc;
+  width: 250px;
+}
