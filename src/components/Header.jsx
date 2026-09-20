@@ -1,5 +1,5 @@
 import "./Header.css";
-import anhLogo from "./assets/favicon.svg";
+import anhLogo from "../assets/favicon.svg";
 export default function Header({ onLogout }) {
   return (
     <>
