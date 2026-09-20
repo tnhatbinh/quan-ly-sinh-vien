@@ -1,4 +1,5 @@
 import "./Header.css";
+import anhLogo from "./assets/favicon.svg";
 export default function Header({ onLogout }) {
   return (
     <>
@@ -14,7 +15,7 @@ export default function Header({ onLogout }) {
           className="header-left"
           style={{ display: "flex", alignItems: "center", gap: "15px" }}
         >
-          <img src="/favicon.svg" className="login-logo" alt="Logo" />
+          <img src={anhLogo} className="login-logo" alt="Logo" />
           <div>
             <h2 className="co-quan">Quản Lý Sinh Viên</h2>
             <h1 className="ten-phan-mem">Phần mềm hỗ trợ quản lý</h1>
