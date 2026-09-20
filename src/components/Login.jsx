@@ -2,6 +2,7 @@ import { useState } from "react";
 import Swal from "sweetalert2";
 import "./Login.css";
 import anhLogo from "./assets/favicon.svg";
+
 export default function Login({ onLoginSuccess }) {
   const [taiKhoan, setTaiKhoan] = useState("");
   const [matKhau, setMatKhau] = useState("");
@@ -30,7 +31,7 @@ export default function Login({ onLoginSuccess }) {
     <div className="login-container">
       <div className="login-box">
         <div className="login-header">
-          <img src={anhLogo} alt="Logo" />
+          <img src={anhLogo} className="login-logo" alt="Logo" />
           <h2>ĐĂNG NHẬP HỆ THỐNG</h2>
           <p>Phần mềm hỗ trợ quản lý đào tạo</p>
         </div>
