@@ -46,3 +46,26 @@
   border: 1px solid #ccc;
   width: 250px;
 }
+/* ================= RESPONSIVE CHO ĐIỆN THOẠI ================= */
+@media (max-width: 768px) {
+  /* 1. Đẩy cột menu (sidebar) lên trên, phần nội dung chính xuống dưới */
+  .body-container {
+    flex-direction: column;
+  }
+
+  /* 2. Cho phép cuộn ngang phần thân để bảng danh sách không bị bóp méo chữ */
+  .main-content {
+    overflow-x: auto;
+  }
+
+  /* 3. Tách hàng nút bấm và ô tìm kiếm thành 2 dòng cho đỡ chật đè lên nhau */
+  .toolbar {
+    flex-direction: column;
+    gap: 10px;
+  }
+
+  /* 4. Phóng to ô tìm kiếm tràn viền ngang của điện thoại */
+  .toolbar-right input {
+    width: 100%;
+  }
+}
