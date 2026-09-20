@@ -1,7 +1,7 @@
 import { useState } from "react";
 import Swal from "sweetalert2";
 import "./Login.css";
-import anhLogo from "./assets/favicon.svg";
+import anhLogo from "../assets/favicon.svg";
 
 export default function Login({ onLoginSuccess }) {
   const [taiKhoan, setTaiKhoan] = useState("");
