@@ -3,5 +3,5 @@ import react from "@vitejs/plugin-react";
 
 export default defineConfig({
   plugins: [react()],
-  base: "/quan-ly-sinh-vien/", // BẮT BUỘC PHẢI THÊM DÒNG NÀY VÀO NÈ!
+  base: "/quan-ly-sinh-vien/",
 });
